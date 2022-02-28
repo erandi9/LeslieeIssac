@@ -1,0 +1,202 @@
+#save-the-date {
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.save-the-date {
+    &__info {
+        max-width: 650px;
+        margin:  0 auto;
+        color: $color-grey;
+        text-align: center;
+        h2 {
+            font-size: 30px;
+            line-height: 55px;
+        }
+        span {
+            font-size: 40px;
+            display: block;
+        }
+        img {
+            margin-top: -45px;
+        }
+        p {
+            width: 100%;
+            font-size: 25px;
+            font-weight: 300;
+            line-height: 33px;
+            margin-top: 63px;
+            margin-bottom: 50px;
+        }
+    }
+    &__time {
+        display: flex;
+        justify-content: space-around;
+        &-item {
+            text-align: center;
+            span {
+                font-size: 40px;
+                color: $color-darkgold;
+            }
+            p {
+                color: $color-spacegrey;
+                font-size: 25px;
+                line-height: 34px;
+                font-weight: 300;
+            }
+        }
+    }
+    &__story {
+        margin-top: 95px;
+        display: flex;
+        justify-content: space-between;
+        &-item {
+            cursor: pointer;
+            color: $color-spacegrey;
+            width: 30%;
+            padding: 53px 35px 64px 35px;
+            text-align: center;
+            transition: all 0.3s ease;
+            margin-top: 60px;
+            height: 100%;
+            p {
+                font-size: 14px;
+                line-height: 19px;
+                margin-top: 30px;
+            }
+            &__wrapper {
+                img {
+                    width: 250px;
+                }
+            }
+            h3 {
+                font-size: 28px;
+                margin-top: 18px;
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 64px;
+                    height: 2px;
+                    background: $color-spacegrey;
+                    margin: 0 auto;
+                    margin-top: 20px;
+                }
+            }
+            span {
+                font-size: 18px;
+                line-height: 24px;
+                font-weight: 300;
+                margin-top: 24px;
+                display: block;
+                margin-top: 25px;
+                &:last-child {
+                    font-size: 14px;
+                    font-family: $font-signerica;
+                    margin-top: 30px;
+                }
+            }
+            &:hover {
+                box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.18);
+                transform: scale(1.05);
+            }
+            &-medium {
+                color: $color-spacegrey;
+                transition: all 0.3s ease;
+                text-align: center;
+                margin-top: 0;
+                padding: 53px 25px 64px 25px;
+                width: 35%;
+                &__wrapper {
+                    position: relative;
+                    p {
+                        font-size: 30px;
+                        line-height: 0px;
+                        text-transform: uppercase;
+                        position: absolute;
+                        z-index: 2;
+                        top: 50%;
+                        left: 50%;
+                        margin-left: -32px;
+                        margin-top: -15px;
+                        width: auto;
+                        span {
+                            font-family: $font-Priscilla;
+                            font-size: 30px;
+                            text-transform: none;
+                            line-height: 60px;
+                        }
+                    }
+                }
+                &:hover {
+                    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.18);
+                    transform: scale(1.05);
+                }
+                &-text {
+                     h3 {
+                        font-size: 28px;
+                        margin-top: 18px;
+                        margin-top: 80px;
+                        &:nth-child(3) {
+                            margin-top: 30px;
+                        }
+                    }
+                    p {
+                        width: 75%;
+                        margin: 0 auto;
+                        margin-top: 30px;
+                        font-size: 14px;
+                        line-height: 19px;
+                        &:nth-child(2)::after {
+                            content: '';
+                            display: block;
+                            height: 15px;
+                            width: 2px;
+                            background: $color-spacegrey;
+                            margin: 0 auto;
+                            margin-top: 30px;
+                        }
+                    }
+                    span {
+                        display: block;
+                        width: 5px;
+                        height: 5px;
+                        background: $color-darkgold;
+                        border-radius: 50%;
+                        margin: 0 auto;
+                        margin-top: 40px;
+                        position: relative;
+                        &::after, &::before {
+                            content: '';
+                            display: block;
+                            width: 5px;
+                            height: 5px;
+                            border-radius: 50%;
+                            background: $color-darkgold;
+                        }
+                        &::after {
+                            position: absolute;
+                            left: -10px;
+                            top: 0;
+                        }
+                        &::before {
+                            position: absolute;
+                            right: -10px;
+                            top: 0;
+                        }
+                    }
+                }
+            }
+            &__wrapper-medium {
+                position: relative;
+                z-index: 1;
+                img {
+                    height: auto;
+                    width: 321px;
+                    margin: 0 auto;
+                }
+            }
+            
+        }
+    }
+}
+
