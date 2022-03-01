@@ -566,7 +566,6 @@ header {
 .save-the-date__info {
   max-width: 650px;
   margin: 0 auto;
-  color: #605f5f;
   text-align: center;
 }
 
@@ -591,6 +590,7 @@ header {
   line-height: 33px;
   margin-top: 63px;
   margin-bottom: 50px;
+  font-weight: bold;
 }
 
 .save-the-date__time {
@@ -603,18 +603,15 @@ header {
 
 .save-the-date__time-item {
   text-align: center;
+  font-weight: bold;
 }
 
-.save-the-date__time-item span {
-  font-size: 40px;
-  color: #d5ac6c;
-}
 
 .save-the-date__time-item p {
-  color: #707070;
   font-size: 25px;
   line-height: 34px;
   font-weight: 300;
+  font-weight: bold;
 }
 
 .save-the-date__story {
@@ -625,11 +622,11 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+          font-weight: bold;
 }
 
 .save-the-date__story-item {
   cursor: pointer;
-  color: #707070;
   width: 30%;
   padding: 53px 35px 64px 35px;
   text-align: center;
@@ -640,7 +637,7 @@ header {
 }
 
 .save-the-date__story-item p {
-  font-size: 14px;
+  font-size: 30px;
   line-height: 19px;
   margin-top: 30px;
 }
@@ -659,7 +656,6 @@ header {
   display: block;
   width: 64px;
   height: 2px;
-  background: #707070;
   margin: 0 auto;
   margin-top: 20px;
 }
@@ -687,7 +683,6 @@ header {
 }
 
 .save-the-date__story-item-medium {
-  color: #707070;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   text-align: center;
@@ -750,7 +745,6 @@ header {
   display: block;
   height: 15px;
   width: 2px;
-  background: #707070;
   margin: 0 auto;
   margin-top: 30px;
 }
@@ -923,7 +917,7 @@ header {
 }
 
 .organization-title h2 {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .organization-wrapper {
@@ -946,11 +940,11 @@ header {
           align-items: center;
   height: 100%;
   width: 130%;
+  font-weight: bold;
 }
 
 .organization-slider__item {
   outline: none;
-  color: #979797;
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
@@ -961,6 +955,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
+  font-weight: bold;
 }
 
 .organization-slider__item-text {
@@ -971,6 +966,7 @@ header {
   position: absolute;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  font-weight: bold;
 }
 
 .organization-slider__item-text h3 {
@@ -985,6 +981,7 @@ header {
   line-height: 26px;
   margin-top: 25px;
   width: 58%;
+  font-weight: bold;
 }
 
 .organization-slider__item-img {
@@ -1001,6 +998,7 @@ header {
 .organization-slider__item-img p span {
   font-weight: 300;
   display: block;
+  font-weight: bold;
 }
 
 .organization-slider__item-img img {
@@ -1053,7 +1051,6 @@ header {
 
 .gallery-title {
   text-transform: uppercase;
-  color: #797979;
 }
 
 .gallery-title span {
