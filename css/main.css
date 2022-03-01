@@ -830,7 +830,7 @@ header {
   margin: 0 auto;
   text-align: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap; 
 }
 
 .witnesses-slider__item-wrapper {
@@ -1016,7 +1016,7 @@ header {
   left: 25%;
   width: auto;
   margin-left: -45px;
-  bottom: 5px;
+  bottom: 3px;
 }
 
 .organization-wrapper .slick-dots li a {
