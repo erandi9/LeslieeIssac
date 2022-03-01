@@ -1012,11 +1012,11 @@ header {
 }
 
 .organization-wrapper .slick-dots {
-  position: absolute;
+  
   left: 25%;
   width: auto;
   margin-left: -45px;
-  bottom: 3px;
+  bottom: -20px;
 }
 
 .organization-wrapper .slick-dots li a {
