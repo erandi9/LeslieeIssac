@@ -1881,14 +1881,13 @@ label {
 * Footer (credits)
 */
 #credits {
-  background: url("../img/foooter.jpg") no-repeat center top/cover;
+  background: url("../img/footer.jpg") no-repeat center top/cover;
   color: #fff;
 }
 
 .credits-blur {
   padding: 100px 0;
   -webkit-backdrop-filter: blur(1.5px);
-  backdrop-filter: blur(1.5px);
   height: 100%;
 }
 
