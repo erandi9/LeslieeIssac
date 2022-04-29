@@ -1163,7 +1163,6 @@ header {
 .presence-form__title p {
   font-size: 16px;
   font-weight: 300;
-  color: #d5ac6c;
 }
 
 .presence-form-wrapper {
@@ -1887,8 +1886,7 @@ label {
 
 .credits-blur {
   padding: 100px 0;
-  -webkit-backdrop-filter: blur(1.5px);
-  height: 100%;
+  height: 400px;
 }
 
 .credits-title h2 {
